@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head', {pageName: "Signup"}); %>
+<body>
+<%- include("../partials/header", {active: 'signup'}) %>
+
+<div class="container my-5">
+    <form id="form" method="post">
+        <div class="mb-3">
+            <label for="user" class="form-label">User name: </label>
+            <input type="text" class="form-control" id="user" name="user" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password: </label>
+            <input type="password" class="form-control" name="password" id="password">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+        </div>
+        <button id="button" class="btn btn-primary">Enter</button>
+    </form>
+</div>
+
+
+<%- include("../partials/footer") %>
+<script src="/js/signup.js"></script>
+</body>
+</html>

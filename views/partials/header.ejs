@@ -1,0 +1,23 @@
+<nav class="navbar navbar-light">
+    <div class="container-fluid">
+        <div class="d-flex justify-content-start">
+        <a class="navbar-brand text-white">Navbar</a>
+        <ul class="nav nav-pills" style="padding-left: 10px">
+            <li class="nav-item">
+                <a class="nav-link
+                <% if (active === "login"){%>
+                    active
+                <%}%>
+                " aria-current="page" href="/login">login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link
+                <% if (active === "signup"){%>
+                    active
+                <%}%>
+                " href="/signup">Signup</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
