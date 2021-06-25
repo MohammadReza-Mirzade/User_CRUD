@@ -16,14 +16,14 @@ Project is created with:
 
 ## Installation
 ```bash
-npm run install
+npm install
 ```
 
 ---
 
 ## Usage
 ```bash
-npm run start
+npm start
 ```
 
 ---
